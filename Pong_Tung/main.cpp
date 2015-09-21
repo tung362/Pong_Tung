@@ -50,7 +50,7 @@ Text difHard = { { 600, 500 }, "Hard", 20, 10 };
 Text DSBackButton = { { 1040, 740 }, "Back", 30, 20 };
 
 //Levels (Every level)
-Ball ball = { { 600, 400 },{ 0, 0 }, 15 };
+Ball ball = { { 600, 400 },{ 0, 0 }, 25 };
 Paddle player1 = { true, { 100, 400 }, 600, 0, 4, 100, 30 };
 Paddle player2 = { false, { 1100, 400 }, 0, 0, 4, 100, 30 };
 Text playerOneWinText = { { 450, 400 }, "Player 1 Wins", 25, 15 };
@@ -64,7 +64,7 @@ Text playerTwoLivesNumText = { { 1150, 70 }, "0", 20, 10 };
 Brick L2brickss[14];
 
 //Level 3
-Ball ball2 = { { 780, 400 },{ 0, 0 }, 15 };
+Ball ball2 = { { 780, 400 },{ 0, 0 }, 25 };
 Brick L3brickss[35];
 Brick L3Movingbrickss[4];
 
